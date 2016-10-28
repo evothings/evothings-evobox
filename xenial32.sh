@@ -25,7 +25,7 @@ sudo chown -R vagrant android-sdk-linux/ > /dev/null 2>&1
 
 # Fix vars and PATH
 echo "export ANDROID_HOME=~/android-sdk-linux" >> /home/vagrant/.profile
-echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk" >> /home/vagrant/.profile
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-i386" >> /home/vagrant/.profile
 echo "PATH=\$PATH:~/android-sdk-linux/tools:~/android-sdk-linux/platform-tools" >> /home/vagrant/.profile
 
 # We could perhaps install cordova using apt
