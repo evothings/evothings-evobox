@@ -1,0 +1,5 @@
+android*.tgz
+.vagrant
+Vagrantfile
+bootstrap.sh
+*.box
