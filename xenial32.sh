@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # To get apt-add-repository 
-sudo apt-get install software-properties-common python-software-properties
+sudo apt-get install -y software-properties-common python-software-properties > /dev/null 2>&1
 
 # Cordova's PPA
 sudo apt-add-repository ppa:cordova-ubuntu/ppa
